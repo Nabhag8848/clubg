@@ -10830,7 +10830,7 @@ header.header-1 .main-header-wraper {
   }
 }
 header.header-1 .main-header-wraper .header-menu {
-  margin-right: auto;
+  /* margin-right: auto; */
   padding-left: 76px !important;
 }
 @media (max-width: 1299px) {
@@ -11615,6 +11615,7 @@ header.hover-color-green .main-header-wraper .header-right .header-search .searc
 
 .page-banner {
   z-index: 1;
+  padding-top: 80px;
   position: relative;
   background-color: #0E1E36;
 }
@@ -16484,11 +16485,12 @@ header.hover-color-green .main-header-wraper .header-right .header-search .searc
   height: 100%;
 }
 .team-item .text {
-  bottom: 0;
+  /* bottom: 0; */
   z-index: 2;
   width: 100%;
-  padding: 24px 0;
-  position: absolute;
+  padding: 20px;
+  /* padding: 24px 0; */
+  /* position: absolute; */
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   background-color: #0E1E36;
