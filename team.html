@@ -1,494 +1,723 @@
 <!DOCTYPE html>
 <html lang="zxx">
+  <!-- Mirrored from rrdevs.net/demos/html/consulter/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Dec 2022 05:44:42 GMT -->
 
-
-<!-- Mirrored from rrdevs.net/demos/html/consulter/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Dec 2022 05:44:42 GMT -->
-
-<head>
+  <head>
     <!-- ========== Meta Tags ========== -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="modinatheme">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="modinatheme" />
     <!-- ======== Page title ============ -->
     <title>CONSULTER - Business Consulting HTML Template</title>
     <!-- ========== Favicon Icon ========== -->
-    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="shortcut icon" href="assets/img/favicon.png" />
     <!-- ===========  All Stylesheet ================= -->
     <!--  Icon css plugins -->
-    <link rel="stylesheet" href="assets/css/icons.css">
+    <link rel="stylesheet" href="assets/css/icons.css" />
     <!--  magnific-popup css plugins -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
     <!-- slick slider menu css file -->
-    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <link rel="stylesheet" href="assets/css/slick.min.css" />
     <!-- animate animation css file -->
-    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
     <!--  Bootstrap css plugins -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <!-- template main style css file -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-</head>
-
-<body class="body-wrapper">
+  <body class="body-wrapper">
     <div id="preloader" class="preloader">
-        <div class="animation-preloader">
-            <div class="spinner">
-            </div>
-            <div class="txt-loading">
-                <span data-text-preloader="C" class="letters-loading">
-                    C
-                </span>
-                <span data-text-preloader="L" class="letters-loading">
-                    L
-                </span>
-                <span data-text-preloader="U" class="letters-loading">
-                    U
-                </span>
-                <span data-text-preloader="B" class="letters-loading">
-                    B
-                </span>
-                <span data-text-preloader=" " class="letters-loading">
-                    &nbsp;
-                </span>
-                <span data-text-preloader="G" class="letters-loading">
-                    G
-                </span>
-                <span data-text-preloader="A" class="letters-loading">
-                    A
-                </span>
-                <span data-text-preloader="M" class="letters-loading">
-                    M
-                </span>
-                <span data-text-preloader="M" class="letters-loading">
-                    M
-                </span>
-                <span data-text-preloader="A" class="letters-loading">
-                    A
-                </span>
-            </div>
-            <p class="text-center">Loading</p>
+      <div class="animation-preloader">
+        <div class="spinner"></div>
+        <div class="txt-loading">
+          <span data-text-preloader="C" class="letters-loading"> C </span>
+          <span data-text-preloader="L" class="letters-loading"> L </span>
+          <span data-text-preloader="U" class="letters-loading"> U </span>
+          <span data-text-preloader="B" class="letters-loading"> B </span>
+          <span data-text-preloader=" " class="letters-loading"> &nbsp; </span>
+          <span data-text-preloader="G" class="letters-loading"> G </span>
+          <span data-text-preloader="A" class="letters-loading"> A </span>
+          <span data-text-preloader="M" class="letters-loading"> M </span>
+          <span data-text-preloader="M" class="letters-loading"> M </span>
+          <span data-text-preloader="A" class="letters-loading"> A </span>
         </div>
-        <div class="loader">
-            <div class="row">
-                <div class="col-3 loader-section section-left">
-                    <div class="bg"></div>
-                </div>
-                <div class="col-3 loader-section section-left">
-                    <div class="bg"></div>
-                </div>
-                <div class="col-3 loader-section section-right">
-                    <div class="bg"></div>
-                </div>
-                <div class="col-3 loader-section section-right">
-                    <div class="bg"></div>
-                </div>
-            </div>
+        <p class="text-center">Loading</p>
+      </div>
+      <div class="loader">
+        <div class="row">
+          <div class="col-3 loader-section section-left">
+            <div class="bg"></div>
+          </div>
+          <div class="col-3 loader-section section-left">
+            <div class="bg"></div>
+          </div>
+          <div class="col-3 loader-section section-right">
+            <div class="bg"></div>
+          </div>
+          <div class="col-3 loader-section section-right">
+            <div class="bg"></div>
+          </div>
         </div>
+      </div>
     </div>
 
     <header class="header header-1 header-3">
-        <div class="main-header-wraper">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <div class="header-logo">
-                                <div class="logo">
-                                    <a href="index.html">
-                                        <img src="assets/img/logo/logo.png" alt="logo">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="header-menu d-none d-xl-block">
-                                <div class="main-menu">
-                                    <ul>
-                                        <li>
-                                            <a href="index.html">Home</a>
-
-                                        </li>
-                                        <li> <a href="about.html">About</a></li>
-                                        <li> <a href="event.html">Events</a></li>
-                                        <li> <b><a href="team.html">Team</a> </b></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="header-right d-flex align-items-center">
-                                <div class="mobile-nav-bar d-block ml-3 ml-sm-5 d-xl-none">
-                                    <div class="mobile-nav-wrap">
-                                        <div id="hamburger">
-                                            <i class="fal fa-bars"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <div class="main-header-wraper">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="d-flex align-items-center justify-content-between">
+                <div class="header-logo">
+                  <div class="logo">
+                    <a href="index.html">
+                      <img src="assets/img/logo/logo.png" alt="logo" />
+                    </a>
+                  </div>
                 </div>
+
+                <div class="header-menu d-none d-xl-block">
+                  <div class="main-menu">
+                    <ul>
+                      <li>
+                        <a href="index.html">Home</a>
+                      </li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="event.html">Events</a></li>
+                      <li>
+                        <b><a href="team.html">Team</a> </b>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="header-right d-flex align-items-center">
+                  <div class="mobile-nav-bar d-block ml-3 ml-sm-5 d-xl-none">
+                    <div class="mobile-nav-wrap">
+                      <div id="hamburger">
+                        <i class="fal fa-bars"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </header>
 
     <div class="mobile-nav mobile-nav-red">
-        <button type="button" class="close-nav">
-            <i class="fal fa-times-circle"></i>
-        </button>
+      <button type="button" class="close-nav">
+        <i class="fal fa-times-circle"></i>
+      </button>
 
-        <nav class="sidebar-nav">
-            <div class="navigation">
-                <div class="consulter-mobile-nav">
-                    <ul>
-                        <li>
-                            <a href="index.html">Home</a>
+      <nav class="sidebar-nav">
+        <div class="navigation">
+          <div class="consulter-mobile-nav">
+            <ul>
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="event.html">Events</a></li>
 
-                        </li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="event.html">Events</a></li>
+              <li><a href="team.html">Team</a></li>
+            </ul>
+          </div>
+          <div class="sidebar-nav__bottom mt-20">
+            <div class="sidebar-nav__bottom-social">
+              <h6 class="color-black mb-5">Follow On:</h6>
 
-                        <li><a href="team.html">Team</a></li>
-                    </ul>
-                </div>
-                <div class="sidebar-nav__bottom mt-20">
-                    <div class="sidebar-nav__bottom-social">
-                        <h6 class="color-black mb-5">Follow On:</h6>
-
-                        <ul>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
+              <ul>
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+              </ul>
             </div>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </div>
-    <div class="offcanvas-overlay"></div> <!-- offcanvas-overlay -->
+    <div class="offcanvas-overlay"></div>
+    <!-- offcanvas-overlay -->
     <!-- header end -->
 
-    <div class="header-gutter"></div><!-- header end -->
+    <div class="header-gutter"></div>
+    <!-- header end -->
 
     <!-- page-banner start -->
     <section class="page-banner pt-xs-60 pt-sm-80 overflow-hidden">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <div class="page-banner__content mb-xs-10 mb-sm-15 mb-md-15 mb-20">
-                        <div class="transparent-text">Our Team</div>
-                        <div class="page-title">
-                            <h1>Team <span>Member</span></h1>
-                        </div>
-                    </div>
-
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Our Team</li>
-                        </ol>
-                    </nav>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="page-banner__media mt-xs-30 mt-sm-40">
-                        <img src="assets/img/page-banner/page-banner-start.svg" class="img-fluid start" alt="">
-                        <img src="assets/img/page-banner/page-banner.jpg" class="img-fluid" alt="">
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="page-banner__content mb-xs-10 mb-sm-15 mb-md-15 mb-20">
+              <div class="transparent-text">Our Team</div>
+              <div class="page-title">
+                <h1>Team <span>Member</span></h1>
+              </div>
             </div>
+
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Our Team
+                </li>
+              </ol>
+            </nav>
+          </div>
+
+          <div class="col-md-6">
+            <div class="page-banner__media mt-xs-30 mt-sm-40">
+              <img
+                src="assets/img/page-banner/page-banner-start.svg"
+                class="img-fluid start"
+                alt=""
+              />
+              <img
+                src="assets/img/page-banner/page-banner.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- page-banner end -->
 
     <!-- team-area start -->
-    <section class="team pb-xs-80 pt-xs-80 pt-sm-100 pb-sm-100 pt-md-100 pb-md-100 pt-120 pb-115 overflow-hidden">
-        <div class="container">
-            <div class="row mb-minus-30">
-                <div class="col-xxl-3 col-lg-4 col-md-6" style="margin-left: auto;">
-                    <div class="team-item text-center mb-30 d-block overflow-hidden">
-                        <div class="media">
-                            <img src="assets/img/team/team-item-1.jpg" class="img-fluid" alt="">
-                        </div>
+    <section
+      class="team pb-xs-80 pt-xs-80 pt-sm-100 pb-sm-100 pt-md-100 pb-md-100 pt-120 pb-115 overflow-hidden"
+    >
+      <div class="container">
+        <div class="row mb-minus-30">
+          <div class="col-xxl-3 col-lg-4 col-md-6" style="margin-left: auto">
+            <div class="team-item text-center mb-30 d-block overflow-hidden">
+              <div class="media">
+                <img
+                  src="assets/img/team/team-item-1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
 
-                        <div class="text d-flex align-items-center justify-content-center">
-                            <div class="left">
-                                <h5 class="title color-white">Stephen Larry</h5>
-                                <span class="position color-white font-la fw-500">Product Manager</span>
-                            </div>
-                        </div>
-                    </div>
+              <div
+                class="text d-flex align-items-center justify-content-center"
+              >
+                <div class="left">
+                  <h5 class="title color-white">Harsh Jobanputra</h5>
+                  <span class="position color-white font-la fw-500"
+                    >MENTOR</span
+                  >
                 </div>
-
-                <div class="col-xxl-3 col-lg-4 col-md-6" style="margin-right: auto;">
-                    <div class="team-item text-center mb-30 d-block overflow-hidden">
-                        <div class="media">
-                            <img src="assets/img/team/team-item-2.jpg" class="img-fluid" alt="">
-                        </div>
-
-                        <div class="text d-flex align-items-center justify-content-center">
-                            <div class="left">
-                                <h5 class="title color-white">Nusrat Jahan</h5>
-                                <span class="position color-white font-la fw-500">Assistent Manager, Finance</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+              </div>
             </div>
+          </div>
 
-            <div class="row mb-minus-30" style="margin-top: 40px;">
-                <div class="col-xxl-3 col-lg-4 col-md-6">
-                    <div class="team-item text-center mb-30 d-block overflow-hidden">
-                        <div class="media">
-                            <img src="assets/img/team/team-item-1.jpg" class="img-fluid" alt="">
-                        </div>
+          <div class="col-xxl-3 col-lg-4 col-md-6" style="margin-right: auto">
+            <div class="team-item text-center mb-30 d-block overflow-hidden">
+              <div class="media">
+                <img
+                  src="assets/img/team/team-item-2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
 
-                        <div class="text d-flex align-items-center justify-content-center">
-                            <div class="left">
-                                <h5 class="title color-white">Stephen Larry</h5>
-                                <span class="position color-white font-la fw-500">Product Manager</span>
-                            </div>
-                        </div>
-                    </div>
+              <div
+                class="text d-flex align-items-center justify-content-center"
+              >
+                <div class="left">
+                  <h5 class="title color-white">Jay Khatri</h5>
+                  <span class="position color-white font-la fw-500"
+                    >GITHUB CAMPUS EXPERT</span
+                  >
                 </div>
-
-                <div class="col-xxl-3 col-lg-4 col-md-6">
-                    <div class="team-item text-center mb-30 d-block overflow-hidden">
-                        <div class="media">
-                            <img src="assets/img/team/team-item-2.jpg" class="img-fluid" alt="">
-                        </div>
-
-                        <div class="text d-flex align-items-center justify-content-center">
-                            <div class="left">
-                                <h5 class="title color-white">Nusrat Jahan</h5>
-                                <span class="position color-white font-la fw-500">Assistent Manager, Finance</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xxl-3 col-lg-4 col-md-6">
-                    <div class="team-item text-center mb-30 d-block overflow-hidden">
-                        <div class="media">
-                            <img src="assets/img/team/team-item-1.jpg" class="img-fluid" alt="">
-                        </div>
-
-                        <div class="text d-flex align-items-center justify-content-center">
-                            <div class="left">
-                                <h5 class="title color-white">Stephen Larry</h5>
-                                <span class="position color-white font-la fw-500">Product Manager</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xxl-3 col-lg-4 col-md-6">
-                    <div class="team-item text-center mb-30 d-block overflow-hidden">
-                        <div class="media">
-                            <img src="assets/img/team/team-item-2.jpg" class="img-fluid" alt="">
-                        </div>
-
-                        <div class="text d-flex align-items-center justify-content-center">
-                            <div class="left">
-                                <h5 class="title color-white">Nusrat Jahan</h5>
-                                <span class="position color-white font-la fw-500">Assistent Manager, Finance</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+              </div>
             </div>
-
-            <div class="row mb-minus-30" style="margin-top: 40px;">
-                <div class="col-xxl-3 col-lg-4 col-md-6">
-                    <div class="team-item text-center mb-30 d-block overflow-hidden">
-                        <div class="media">
-                            <img src="assets/img/team/team-item-1.jpg" class="img-fluid" alt="">
-                        </div>
-
-                        <div class="text d-flex align-items-center justify-content-center">
-                            <div class="left">
-                                <h5 class="title color-white">Stephen Larry</h5>
-                                <span class="position color-white font-la fw-500">Product Manager</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xxl-3 col-lg-4 col-md-6">
-                    <div class="team-item text-center mb-30 d-block overflow-hidden">
-                        <div class="media">
-                            <img src="assets/img/team/team-item-2.jpg" class="img-fluid" alt="">
-                        </div>
-
-                        <div class="text d-flex align-items-center justify-content-center">
-                            <div class="left">
-                                <h5 class="title color-white">Nusrat Jahan</h5>
-                                <span class="position color-white font-la fw-500">Assistent Manager, Finance</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xxl-3 col-lg-4 col-md-6">
-                    <div class="team-item text-center mb-30 d-block overflow-hidden">
-                        <div class="media">
-                            <img src="assets/img/team/team-item-1.jpg" class="img-fluid" alt="">
-                        </div>
-
-                        <div class="text d-flex align-items-center justify-content-center">
-                            <div class="left">
-                                <h5 class="title color-white">Stephen Larry</h5>
-                                <span class="position color-white font-la fw-500">Product Manager</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xxl-3 col-lg-4 col-md-6">
-                    <div class="team-item text-center mb-30 d-block overflow-hidden">
-                        <div class="media">
-                            <img src="assets/img/team/team-item-2.jpg" class="img-fluid" alt="">
-                        </div>
-
-                        <div class="text d-flex align-items-center justify-content-center">
-                            <div class="left">
-                                <h5 class="title color-white">Nusrat Jahan</h5>
-                                <span class="position color-white font-la fw-500">Assistent Manager, Finance</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
+          </div>
         </div>
+
+        <div class="row mb-minus-30" style="margin-top: 40px">
+          <div class="col-xxl-3 col-lg-4 col-md-6">
+            <div class="team-item text-center mb-30 d-block overflow-hidden">
+              <div class="media">
+                <img
+                  src="assets/img/team/team-item-1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+
+              <div
+                class="text d-flex align-items-center justify-content-center"
+              >
+                <div class="left">
+                  <h5 class="title color-white">Devarshi Doshi</h5>
+                  <span class="position color-white font-la fw-500"
+                    >CLUB MANAGER</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-lg-4 col-md-6">
+            <div class="team-item text-center mb-30 d-block overflow-hidden">
+              <div class="media">
+                <img
+                  src="assets/img/team/team-item-2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+
+              <div
+                class="text d-flex align-items-center justify-content-center"
+              >
+                <div class="left">
+                  <h5 class="title color-white">Vivek Sachdev</h5>
+                  <span class="position color-white font-la fw-500"
+                    >CLUB MANAGER</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-lg-4 col-md-6">
+            <div class="team-item text-center mb-30 d-block overflow-hidden">
+              <div class="media">
+                <img
+                  src="assets/img/team/team-item-1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+
+              <div
+                class="text d-flex align-items-center justify-content-center"
+              >
+                <div class="left">
+                  <h5 class="title color-white">Kunal Parekh</h5>
+                  <span class="position color-white font-la fw-500"
+                    >WEB TEAM</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-lg-4 col-md-6">
+            <div class="team-item text-center mb-30 d-block overflow-hidden">
+              <div class="media">
+                <img
+                  src="assets/img/team/team-item-2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+
+              <div
+                class="text d-flex align-items-center justify-content-center"
+              >
+                <div class="left">
+                  <h5 class="title color-white">Nabhag Motivaras</h5>
+                  <span class="position color-white font-la fw-500"
+                    >WEB TEAM</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-minus-30" style="margin-top: 40px">
+          <div class="col-xxl-3 col-lg-4 col-md-6">
+            <div class="team-item text-center mb-30 d-block overflow-hidden">
+              <div class="media">
+                <img
+                  src="assets/img/team/team-item-1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+
+              <div
+                class="text d-flex align-items-center justify-content-center"
+              >
+                <div class="left">
+                  <h5 class="title color-white">Mehul Minat</h5>
+                  <span class="position color-white font-la fw-500"
+                    >MOBILE TEAM</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-lg-4 col-md-6">
+            <div class="team-item text-center mb-30 d-block overflow-hidden">
+              <div class="media">
+                <img
+                  src="assets/img/team/team-item-2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+
+              <div
+                class="text d-flex align-items-center justify-content-center"
+              >
+                <div class="left">
+                  <h5 class="title color-white">Tirth Patel</h5>
+                  <span class="position color-white font-la fw-500"
+                    >MOBILE TEAM</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-lg-4 col-md-6">
+            <div class="team-item text-center mb-30 d-block overflow-hidden">
+              <div class="media">
+                <img
+                  src="assets/img/team/team-item-2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+
+              <div
+                class="text d-flex align-items-center justify-content-center"
+              >
+                <div class="left">
+                  <h5 class="title color-white">Adnan Vahora</h5>
+                  <span class="position color-white font-la fw-500"
+                    >CLOUD & ML TEAM</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-lg-4 col-md-6">
+            <div class="team-item text-center mb-30 d-block overflow-hidden">
+              <div class="media">
+                <img
+                  src="assets/img/team/team-item-2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+
+              <div
+                class="text d-flex align-items-center justify-content-center"
+              >
+                <div class="left">
+                  <h5 class="title color-white">Harnil Shah</h5>
+                  <span class="position color-white font-la fw-500"
+                    >CLOUD & ML TEAM</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-lg-4 col-md-6">
+            <div class="team-item text-center mb-30 d-block overflow-hidden">
+              <div class="media">
+                <img
+                  src="assets/img/team/team-item-1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+
+              <div
+                class="text d-flex align-items-center justify-content-center"
+              >
+                <div class="left">
+                  <h5 class="title color-white">Ranjit Odedra</h5>
+                  <span class="position color-white font-la fw-500"
+                    >GRAPHICS TEAM</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-lg-4 col-md-6">
+            <div class="team-item text-center mb-30 d-block overflow-hidden">
+              <div class="media">
+                <img
+                  src="assets/img/team/team-item-2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+
+              <div
+                class="text d-flex align-items-center justify-content-center"
+              >
+                <div class="left">
+                  <h5 class="title color-white">Mansi Raval</h5>
+                  <span class="position color-white font-la fw-500"
+                    >GRAPHICS TEAM</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-lg-4 col-md-6">
+            <div class="team-item text-center mb-30 d-block overflow-hidden">
+              <div class="media">
+                <img
+                  src="assets/img/team/team-item-2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+
+              <div
+                class="text d-flex align-items-center justify-content-center"
+              >
+                <div class="left">
+                  <h5 class="title color-white">Devanshi Bhatt</h5>
+                  <span class="position color-white font-la fw-500"
+                    >GRAPHICS TEAM</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xxl-3 col-lg-4 col-md-6">
+            <div class="team-item text-center mb-30 d-block overflow-hidden">
+              <div class="media">
+                <img
+                  src="assets/img/team/team-item-2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+
+              <div
+                class="text d-flex align-items-center justify-content-center"
+              >
+                <div class="left">
+                  <h5 class="title color-white">Jinal Kotadia</h5>
+                  <span class="position color-white font-la fw-500"
+                    >SOCIAL MEDIA TEAM</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-lg-4 col-md-6">
+            <div class="team-item text-center mb-30 d-block overflow-hidden">
+              <div class="media">
+                <img
+                  src="assets/img/team/team-item-2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+
+              <div
+                class="text d-flex align-items-center justify-content-center"
+              >
+                <div class="left">
+                  <h5 class="title color-white">Nisarg Thakkar</h5>
+                  <span class="position color-white font-la fw-500"
+                    >SOCIAL MEDIA TEAM</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- team-area end -->
 
     <!-- cta start -->
-    <section class="cta-banner overflow-hidden">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div
-                        class="cta-banner__content d-flex flex-column flex-lg-row justify-content-between align-items-center pl-xs-20  pr-xs-20 pl-sm-30  pr-sm-30 pl-lg-50 pr-lg-50 pr-85 pl-85 overflow-hidden">
-                        <div class="cta-banner__content-text">
-                            <h3 class="title text-capitalize color-white">Small Business Grow Fast With Our Consulting
-                                Services</h3>
-                        </div>
-                        <div class="cta-banner__content-btn">
-                            <a href="contact.html" class="theme-btn btn-white">Let’s Work Together <i
-                                    class="far fa-chevron-double-right"></i></a>
-                        </div>
-                    </div>
-                </div>
+    <!-- <section class="cta-banner overflow-hidden">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div
+              class="cta-banner__content d-flex flex-column flex-lg-row justify-content-between align-items-center pl-xs-20 pr-xs-20 pl-sm-30 pr-sm-30 pl-lg-50 pr-lg-50 pr-85 pl-85 overflow-hidden"
+            >
+              <div class="cta-banner__content-text">
+                <h3 class="title text-capitalize color-white">
+                  Small Business Grow Fast With Our Consulting Services
+                </h3>
+              </div>
+              <div class="cta-banner__content-btn">
+                <a href="contact.html" class="theme-btn btn-white"
+                  >Let’s Work Together
+                  <i class="far fa-chevron-double-right"></i
+                ></a>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </section> -->
     <!-- cta start -->
 
     <!-- footer start -->
     <footer class="footer-1 overflow-hidden">
-        <div class="footer-top mb-xs-5 mb-sm-10 mb-md-15 mb-lg-20 mb-25 overflow-hidden">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-md-6 col-xl-3">
-                        <div class="single-footer-wid widget-description">
-                            <a href="index.html" class="d-block mb-30 mb-xs-20">
-                                <img src="assets/img/logo/logo.png" alt="">
-                            </a>
+      <div
+        class="footer-top mb-xs-5 mb-sm-10 mb-md-15 mb-lg-20 mb-25 overflow-hidden"
+      >
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-md-6 col-xl-3">
+              <div class="single-footer-wid widget-description">
+                <a href="index.html" class="d-block mb-30 mb-xs-20">
+                  <img src="assets/img/logo/logo.png" alt="" />
+                </a>
 
-                            <div class="description font-la color-white mb-40 mb-sm-30 mb-xs-25">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt
-                                    ut labore et dolore magna aliqua ut enim ad minim veniam</p>
-                            </div>
-                        </div>
-                        <div class="header-right-socail d-flex align-items-center">
-                            <h6 class="font-la color-white fw-normal" style="margin-right: 10px;">Follow On:</h6>
-
-                            <div class="social-profile">
-                                <ul>
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-6 col-xl-2">
-                        <div class="single-footer-wid pl-xl-10 pl-50">
-                            <h4 class="wid-title mb-30 color-white">Quick Link</h4>
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="event.html">Event</a></li>
-                                <li><a href="team.html">Team</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-xl-4">
-                        <div class="single-footer-wid recent_post_widget pl-xl-10 pl-65 pr-50 pr-xl-30">
-                            <h4 class="wid-title mb-30 color-white">Resent Events</h4>
-
-                            <div class="recent-post-list">
-                                <a href="blog.html" class="single-recent-post mb-20 pb-20 d-flex align-items-center">
-                                    <div class="thumb">
-                                        <img src="assets/img/footer/resent-post-1.png" alt="">
-                                    </div>
-
-                                    <div class="post-data">
-                                        <h5 class="color-white mb-10 fw-600">Why Purpose-Driven Employers Succeed</h5>
-                                        <span class="color-white d-flex ailign-items-center"><i
-                                                class="far fa-clock"></i>January 11,
-                                            2018</span>
-                                    </div>
-                                </a>
-
-                                <a href="blog.html" class="single-recent-post mb-20 pb-20 d-flex align-items-center">
-                                    <div class="thumb">
-                                        <img src="assets/img/footer/resent-post-2.png" alt="">
-                                    </div>
-
-                                    <div class="post-data">
-                                        <h5 class="color-white mb-10 fw-600">Saving Time Achieving Success in Business
-                                        </h5>
-                                        <span class="color-white d-flex ailign-items-center"><i
-                                                class="far fa-clock"></i>november 12,
-                                            2019</span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom overflow-hidden">
-            <div class="container">
                 <div
-                    class="footer-bottom-content d-flex flex-column flex-md-row justify-content-between align-items-center">
-                    <div class="coppyright text-center text-md-start">
-                        &copy; 2022 <a href="index.html">Consulter</a> | All Rights Reserved by <a
-                            href="https://themeforest.net/user/rrdevs">RRDevs</a>
+                  class="description font-la color-white mb-40 mb-sm-30 mb-xs-25"
+                >
+                  <p>
+                    If you any query related to Club Gamma, just mail us, or
+                    else just ping us on social media as we are pretty much
+                    active on every social media.
+                  </p>
+                </div>
+              </div>
+              <div class="header-right-socail d-flex align-items-center">
+                <h6
+                  class="font-la color-white fw-normal"
+                  style="margin-right: 10px"
+                >
+                  Follow On:
+                </h6>
+
+                <div class="social-profile">
+                  <ul>
+                    <li>
+                      <a href="https://www.facebook.com/clubgamma/"
+                        ><i class="fab fa-facebook-f"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/club_gamma"
+                        ><i class="fab fa-twitter"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/club_gamma/"
+                        ><i class="fab fa-instagram"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/company/clubgamma/"
+                        ><i class="fab fa-linkedin-in"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-xl-2">
+              <div class="single-footer-wid pl-xl-10 pl-50">
+                <h4 class="wid-title mb-30 color-white">Quick Link</h4>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="event.html">Event</a></li>
+                  <li><a href="team.html">Team</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-xl-4">
+              <div
+                class="single-footer-wid recent_post_widget pl-xl-10 pl-65 pr-50 pr-xl-30"
+              >
+                <h4 class="wid-title mb-30 color-white">Resent Events</h4>
+
+                <div class="recent-post-list">
+                  <a
+                    href="blog.html"
+                    class="single-recent-post mb-20 pb-20 d-flex align-items-center"
+                  >
+                    <div class="thumb">
+                      <img src="assets/img/footer/resent-post-1.png" alt="" />
                     </div>
 
-                    <div class="footer-bottom-list last_no_bullet">
-                        <ul>
-                            <li><a href="#">Terms & Conditions</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                        </ul>
+                    <div class="post-data">
+                      <h5 class="color-white mb-10 fw-600">
+                        Why Purpose-Driven Employers Succeed
+                      </h5>
+                      <span class="color-white d-flex ailign-items-center"
+                        ><i class="far fa-clock"></i>January 11, 2018</span
+                      >
                     </div>
+                  </a>
+
+                  <a
+                    href="blog.html"
+                    class="single-recent-post mb-20 pb-20 d-flex align-items-center"
+                  >
+                    <div class="thumb">
+                      <img src="assets/img/footer/resent-post-2.png" alt="" />
+                    </div>
+
+                    <div class="post-data">
+                      <h5 class="color-white mb-10 fw-600">
+                        Saving Time Achieving Success in Business
+                      </h5>
+                      <span class="color-white d-flex ailign-items-center"
+                        ><i class="far fa-clock"></i>november 12, 2019</span
+                      >
+                    </div>
+                  </a>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
+      <div class="footer-bottom overflow-hidden">
+        <div class="container">
+          <div
+            class="footer-bottom-content d-flex flex-column flex-md-row justify-content-between align-items-center"
+          >
+            <div class="coppyright text-center text-md-start">
+              &copy; 2022 <a href="index.html">Club Gamma</a> | All Rights
+              Reserved<a href="https://clubgamma.github.io/code-of-conduct/">
+                Code Of Conduct</a
+              >
+            </div>
+            <!-- <div class="footer-bottom-list last_no_bullet">
+              <ul>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div> -->
+          </div>
+        </div>
+      </div>
     </footer>
     <!-- footer end -->
 
@@ -506,11 +735,12 @@
     <script src="assets/js/magnific-popup.min.js"></script>
     <script src="assets/js/jquery.easypiechart.min.js"></script>
     <script src="assets/js/active.js"></script>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNzB36AcEMpFG1kWuNC5dfLvdX83OUr5M&amp;callback=initMap"></script>
-</body>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNzB36AcEMpFG1kWuNC5dfLvdX83OUr5M&amp;callback=initMap"
+    ></script>
+  </body>
 
-
-<!-- Mirrored from rrdevs.net/demos/html/consulter/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Dec 2022 05:44:45 GMT -->
-
+  <!-- Mirrored from rrdevs.net/demos/html/consulter/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Dec 2022 05:44:45 GMT -->
 </html>
